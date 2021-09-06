@@ -1,14 +1,14 @@
 {
   "features": {
-    "graphqltransformer": {
-      "addmissingownerfields": true,
-      "improvepluralization": true,
-      "validatetypenamereservedwords": true,
-      "useexperimentalpipelinedtransformer": false,
-      "enableiterativegsiupdates": true,
-      "secondarykeyasgsi": true,
-      "skipoverridemutationinputtypes": true
-    },
+    // "graphqltransformer": {
+    //   "addmissingownerfields": true,
+    //   "improvepluralization": true,
+    //   "validatetypenamereservedwords": true,
+    //   "useexperimentalpipelinedtransformer": false,
+    //   "enableiterativegsiupdates": true,
+    //   "secondarykeyasgsi": true,
+    //   "skipoverridemutationinputtypes": true
+    // },
     "frontend-ios": {
       "enablexcodeintegration": true
     },
