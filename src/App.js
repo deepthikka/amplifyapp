@@ -11,6 +11,8 @@ import './css/App.css';
 import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import { API } from 'aws-amplify';
+//import { listNotes } from './graphql/queries';
 
 function App() {
 
@@ -18,6 +20,12 @@ function App() {
    const user =  await Auth.currentAuthenticatedUser();
    console.log('user : ' + user)
  }
+
+//  async function fetchNotes() {
+//   const apiData = await API.graphql({ query: listNotes });
+//   console.log('Notes : ' + apiData.data.listNotes.items);
+    console.log("Here")
+// }
 
 
  return (
@@ -29,6 +37,7 @@ function App() {
         <button onClick={checkUser}>Check User</button>
         <button onClick={() => Auth.signOut()}>Sign Out</button> */}
         <button onClick={() => Auth.federatedSignIn()}> Influencer</button>
+        <button onClick={fetchNotes}> Fetch Data</button>
         <button onClick={() => Auth.federatedSignIn()}> Follower</button>
       </header>
       <Switch>
