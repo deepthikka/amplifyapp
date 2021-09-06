@@ -13,10 +13,7 @@
     },
     "categories": {
       "auth": {
-        "amplifyapp59057cdd": {
-          "facebookAppId": "373490777704594",
-          "googleClientId": "amplifyapp-325215"
-        }
+        "amplifyapp59057cdd": {}
       }
     }
   }
